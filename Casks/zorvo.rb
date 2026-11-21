@@ -1,6 +1,6 @@
 cask "zorvo" do
-  version "0.14.1"
-  sha256 "c4486a855fff84d7dacb9675736528f7d3c5bd8a53cd8e17b14eee38e7cd0657"
+  version "0.15.0"
+  sha256 "7869e33f99fe32d38266410d3b39692ef414317a08d1dc9a61925271d0599933"
 
   url "https://github.com/zakyirsyaad/zorvo/releases/download/v#{version}/Zorvo_#{version}_universal.dmg"
   name "Zorvo"
