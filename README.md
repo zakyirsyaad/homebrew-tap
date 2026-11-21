@@ -1,18 +1,18 @@
-# Zakyirsyaad Tap
+# Zorvo Homebrew tap
 
-## How do I install these formulae?
+Installs [Zorvo](https://zorvolabs.xyz), a Mac app for Claude Code, Codex, Qwen Code and the other
+agents in the ACP registry.
 
-`brew install zakyirsyaad/tap/<formula>`
-
-Or `brew tap zakyirsyaad/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "zakyirsyaad/tap"
-brew "<formula>"
+```bash
+brew install --cask zakyirsyaad/tap/zorvo
 ```
 
-## Documentation
+Homebrew 7 and later ask you to trust a tap that is not its own before they read it. If the
+install stops with "untrusted tap", run this and install again:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew trust zakyirsyaad/tap
+```
+
+Once installed, Zorvo updates itself, so this cask only has to be current enough to install.
+The source is at [zakyirsyaad/zorvo](https://github.com/zakyirsyaad/zorvo).
